@@ -72,7 +72,7 @@ def lookup_in_addresses(key):
     if address in addresses:
         print 'founded / pwned : ' + key
 
-def lookup_in_rs(key)
+def lookup_in_rs(key):
     r = keyToSignature(key)
     if r in rs:
         print 'founded / pwned : ' + key
